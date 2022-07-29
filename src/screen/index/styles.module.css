@@ -1,0 +1,49 @@
+.app {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 30px;
+}
+
+.btn {
+  border: none;
+  background: orange;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.btnCt {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  animation: rotate 2s linear forwards infinite;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

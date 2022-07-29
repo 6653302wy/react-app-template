@@ -1,0 +1,14 @@
+html {
+  font-size: calc(100vw / 7.5);
+  margin: auto;
+}
+
+@media screen and (min-width: 750) {
+  html {
+    font-size: 100px;
+  }
+}
+
+body {
+  font-size: 0.28rem;
+}

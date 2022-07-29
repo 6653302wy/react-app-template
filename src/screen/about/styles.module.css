@@ -1,0 +1,17 @@
+.popWrap {
+  background: #fff;
+  border-radius: 5px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  border: none;
+  background: orange;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 2px;
+  color: #fff;
+}
